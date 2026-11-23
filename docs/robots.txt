@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oneforallhub.github.io/verified-public-apis/sitemap.xml

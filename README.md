@@ -1,8 +1,8 @@
 # Verified Public APIs ✅⚡
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--25T06%3A55%3A18Z-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--25T12%3A56%3A48Z-brightgreen?style=flat-square)
 ![APIs Up](https://img.shields.io/badge/APIs%20Online-37%2F40-success?style=flat-square)
-![Avg Latency](https://img.shields.io/badge/Avg%20Latency-124ms-blue?style=flat-square)
+![Avg Latency](https://img.shields.io/badge/Avg%20Latency-174ms-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 **Daily automated uptime & latency monitor for free public REST APIs (mostly no-auth).**
@@ -14,46 +14,46 @@
 
 | Status | API | Category | Auth | HTTP | Latency | Description |
 | --- | --- | --- | --- | ---: | ---: | --- |
-| ✅ UP | [OpenRouter Models API](https://openrouter.ai/docs) | AI | `No` | `200` | 15 ms | Live catalog of LLM models & pricing |
-| ✅ UP | [Hugging Face Hub API](https://huggingface.co/docs/hub/api) | AI | `No` | `200` | 16 ms | Models, datasets & spaces metadata |
-| ✅ UP | [PyPI JSON API](https://warehouse.pypa.io/api-reference/json.html) | Developer | `No` | `200` | 11 ms | Python package index metadata |
-| ✅ UP | [GitHub REST API](https://docs.github.com/en/rest) | Developer | `Optional` | `200` | 12 ms | Repositories, issues, and developer metadata |
-| ✅ UP | [HTTPBin](https://httpbin.org/) | Developer | `No` | `200` | 12 ms | HTTP request & response testing service |
-| ✅ UP | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Developer | `No` | `200` | 19 ms | Fake online REST API for testing |
-| ✅ UP | [NPM Registry](https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md) | Developer | `No` | `200` | 22 ms | JavaScript package metadata |
-| ✅ UP | [DummyJSON](https://dummyjson.com/docs) | Developer | `No` | `200` | 36 ms | Mock ecommerce, auth & user REST API |
-| ✅ UP | [PokeAPI](https://pokeapi.co/docs/v2) | Entertainment | `No` | `200` | 22 ms | RESTful Pokemon encyclopedia |
-| ✅ UP | [Rick and Morty API](https://rickandmortyapi.com/documentation) | Entertainment | `No` | `200` | 47 ms | Characters, locations & episodes |
-| ✅ UP | [Cat Fact Ninja](https://catfact.ninja/) | Entertainment | `No` | `200` | 83 ms | Random cat facts JSON API |
-| ✅ UP | [Deck of Cards API](https://deckofcardsapi.com/) | Entertainment | `No` | `200` | 83 ms | Simulate card decks & draws |
-| ✅ UP | [Dog CEO API](https://dog.ceo/dog-api/) | Entertainment | `No` | `200` | 109 ms | Random dog images by breed |
-| ✅ UP | [Advice Slip API](https://api.adviceslip.com/) | Entertainment | `No` | `200` | 286 ms | Random advice JSON endpoint |
-| ✅ UP | [TVMaze](https://www.tvmaze.com/api) | Entertainment | `No` | `200` | 320 ms | TV shows & episode schedules |
-| ✅ UP | [Open Exchange Rates (ER-API)](https://www.exchangerate-api.com/docs/free) | Finance | `No` | `200` | 23 ms | Free JSON currency conversion rates |
-| ✅ UP | [Frankfurter Exchange Rates](https://www.frankfurter.app/docs/) | Finance | `No` | `200` | 66 ms | ECB foreign exchange rates API |
-| ✅ UP | [CoinGecko Prices](https://docs.coingecko.com/) | Finance | `No` | `200` | 72 ms | Cryptocurrency market data & prices |
-| ✅ UP | [Zippopotam.us](https://www.zippopotam.us/) | Geo | `No` | `200` | 28 ms | Postal codes & geolocation lookup |
-| ✅ UP | [REST Countries](https://restcountries.com/) | Geo | `No` | `200` | 76 ms | Detailed country metadata & codes |
-| ✅ UP | [Sunrise-Sunset API](https://sunrise-sunset.org/api) | Geo | `No` | `200` | 85 ms | Sunrise and sunset times by coordinates |
-| ✅ UP | [OpenStreetMap Nominatim](https://nominatim.org/release-docs/latest/api/Overview/) | Geo | `No` | `200` | 366 ms | Open geocoding & address search |
-| ✅ UP | [Cloudflare DNS over HTTPS](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/) | Network | `No` | `200` | 14 ms | DoH JSON DNS resolver |
-| ✅ UP | [ipify Public IP](https://www.ipify.org/) | Network | `No` | `200` | 25 ms | Simple public IPv4/IPv6 lookup |
-| ✅ UP | [Hacker News API](https://github.com/HackerNews/API) | News | `No` | `200` | 100 ms | Live Hacker News stories & comments |
-| ✅ UP | [Spaceflight News API](https://api.spaceflightnewsapi.net/v4/docs/) | News | `No` | `200` | 1393 ms | Spaceflight & aerospace news articles |
-| ✅ UP | [Wikipedia REST API](https://en.wikipedia.org/api/rest_v1/) | Open Data | `No` | `200` | 8 ms | Wikipedia article summaries & media |
-| ✅ UP | [Universities List](https://github.com/Hipo/university-domains-list) | Open Data | `No` | `200` | 10 ms | Global university names & domains |
-| ✅ UP | [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | Open Data | `No` | `200` | 37 ms | Global economic & development indicators |
-| ✅ UP | [Free Dictionary API](https://dictionaryapi.dev/) | Open Data | `No` | `200` | 65 ms | English word definitions & phonetics |
-| ✅ UP | [Nager.Date Public Holidays](https://date.nager.at/Api) | Open Data | `No` | `200` | 110 ms | Worldwide public holidays API |
-| ✅ UP | [Open Library](https://openlibrary.org/developers/api) | Open Data | `No` | `200` | 342 ms | Books, authors, and ISBN catalog |
-| ✅ UP | [arXiv API](https://info.arxiv.org/help/api/index.html) | Science | `No` | `200` | 49 ms | Scientific preprints & papers |
-| ✅ UP | [Open Notify ISS Location](http://open-notify.org/) | Science | `No` | `200` | 175 ms | Live International Space Station coordinates |
-| ✅ UP | [OSV Vulnerability DB](https://google.github.io/osv.dev/api/) | Security | `No` | `200` | 98 ms | Open source vulnerability database |
-| ✅ UP | [Open-Meteo Weather](https://open-meteo.com/en/docs) | Weather | `No` | `200` | 48 ms | Free open-source weather forecast API |
-| ✅ UP | [wttr.in Weather](https://github.com/chubin/wttr.in) | Weather | `No` | `200` | 312 ms | Console & JSON weather service |
-| ❌ DOWN | [Open Trivia DB](https://opentdb.com/api_config.php) | Entertainment | `No` | `0` | 12022 ms | Free trivia questions dataset |
-| ❌ DOWN | [NASA Open APIs (APOD)](https://api.nasa.gov/) | Science | `DEMO_KEY` | `500` | 476 ms | Astronomy picture of the day & space data |
-| ❌ DOWN | [SpaceX API](https://github.com/r-spacex/SpaceX-API) | Science | `No` | `0` | 12022 ms | Launches, rockets, and starlink data |
+| ✅ UP | [OpenRouter Models API](https://openrouter.ai/docs) | AI | `No` | `200` | 32 ms | Live catalog of LLM models & pricing |
+| ✅ UP | [Hugging Face Hub API](https://huggingface.co/docs/hub/api) | AI | `No` | `200` | 94 ms | Models, datasets & spaces metadata |
+| ✅ UP | [PyPI JSON API](https://warehouse.pypa.io/api-reference/json.html) | Developer | `No` | `200` | 22 ms | Python package index metadata |
+| ✅ UP | [NPM Registry](https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md) | Developer | `No` | `200` | 42 ms | JavaScript package metadata |
+| ✅ UP | [DummyJSON](https://dummyjson.com/docs) | Developer | `No` | `200` | 56 ms | Mock ecommerce, auth & user REST API |
+| ✅ UP | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Developer | `No` | `200` | 72 ms | Fake online REST API for testing |
+| ✅ UP | [GitHub REST API](https://docs.github.com/en/rest) | Developer | `Optional` | `200` | 100 ms | Repositories, issues, and developer metadata |
+| ✅ UP | [HTTPBin](https://httpbin.org/) | Developer | `No` | `200` | 216 ms | HTTP request & response testing service |
+| ✅ UP | [Rick and Morty API](https://rickandmortyapi.com/documentation) | Entertainment | `No` | `200` | 65 ms | Characters, locations & episodes |
+| ✅ UP | [PokeAPI](https://pokeapi.co/docs/v2) | Entertainment | `No` | `200` | 72 ms | RESTful Pokemon encyclopedia |
+| ✅ UP | [Cat Fact Ninja](https://catfact.ninja/) | Entertainment | `No` | `200` | 76 ms | Random cat facts JSON API |
+| ✅ UP | [Deck of Cards API](https://deckofcardsapi.com/) | Entertainment | `No` | `200` | 111 ms | Simulate card decks & draws |
+| ✅ UP | [Open Trivia DB](https://opentdb.com/api_config.php) | Entertainment | `No` | `200` | 115 ms | Free trivia questions dataset |
+| ✅ UP | [Dog CEO API](https://dog.ceo/dog-api/) | Entertainment | `No` | `200` | 142 ms | Random dog images by breed |
+| ✅ UP | [Advice Slip API](https://api.adviceslip.com/) | Entertainment | `No` | `200` | 291 ms | Random advice JSON endpoint |
+| ✅ UP | [TVMaze](https://www.tvmaze.com/api) | Entertainment | `No` | `200` | 362 ms | TV shows & episode schedules |
+| ✅ UP | [Open Exchange Rates (ER-API)](https://www.exchangerate-api.com/docs/free) | Finance | `No` | `200` | 61 ms | Free JSON currency conversion rates |
+| ✅ UP | [CoinGecko Prices](https://docs.coingecko.com/) | Finance | `No` | `200` | 102 ms | Cryptocurrency market data & prices |
+| ✅ UP | [Frankfurter Exchange Rates](https://www.frankfurter.app/docs/) | Finance | `No` | `200` | 307 ms | ECB foreign exchange rates API |
+| ✅ UP | [OpenStreetMap Nominatim](https://nominatim.org/release-docs/latest/api/Overview/) | Geo | `No` | `200` | 50 ms | Open geocoding & address search |
+| ✅ UP | [Zippopotam.us](https://www.zippopotam.us/) | Geo | `No` | `200` | 79 ms | Postal codes & geolocation lookup |
+| ✅ UP | [REST Countries](https://restcountries.com/) | Geo | `No` | `200` | 163 ms | Detailed country metadata & codes |
+| ✅ UP | [Sunrise-Sunset API](https://sunrise-sunset.org/api) | Geo | `No` | `200` | 243 ms | Sunrise and sunset times by coordinates |
+| ✅ UP | [ipify Public IP](https://www.ipify.org/) | Network | `No` | `200` | 46 ms | Simple public IPv4/IPv6 lookup |
+| ✅ UP | [Cloudflare DNS over HTTPS](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/) | Network | `No` | `200` | 46 ms | DoH JSON DNS resolver |
+| ✅ UP | [Hacker News API](https://github.com/HackerNews/API) | News | `No` | `200` | 85 ms | Live Hacker News stories & comments |
+| ✅ UP | [Spaceflight News API](https://api.spaceflightnewsapi.net/v4/docs/) | News | `No` | `200` | 457 ms | Spaceflight & aerospace news articles |
+| ✅ UP | [Universities List](https://github.com/Hipo/university-domains-list) | Open Data | `No` | `200` | 48 ms | Global university names & domains |
+| ✅ UP | [Wikipedia REST API](https://en.wikipedia.org/api/rest_v1/) | Open Data | `No` | `200` | 52 ms | Wikipedia article summaries & media |
+| ✅ UP | [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | Open Data | `No` | `200` | 96 ms | Global economic & development indicators |
+| ✅ UP | [Free Dictionary API](https://dictionaryapi.dev/) | Open Data | `No` | `200` | 97 ms | English word definitions & phonetics |
+| ✅ UP | [Nager.Date Public Holidays](https://date.nager.at/Api) | Open Data | `No` | `200` | 139 ms | Worldwide public holidays API |
+| ✅ UP | [arXiv API](https://info.arxiv.org/help/api/index.html) | Science | `No` | `200` | 245 ms | Scientific preprints & papers |
+| ✅ UP | [Open Notify ISS Location](http://open-notify.org/) | Science | `No` | `200` | 1367 ms | Live International Space Station coordinates |
+| ✅ UP | [OSV Vulnerability DB](https://google.github.io/osv.dev/api/) | Security | `No` | `200` | 226 ms | Open source vulnerability database |
+| ✅ UP | [Open-Meteo Weather](https://open-meteo.com/en/docs) | Weather | `No` | `200` | 134 ms | Free open-source weather forecast API |
+| ✅ UP | [wttr.in Weather](https://github.com/chubin/wttr.in) | Weather | `No` | `200` | 535 ms | Console & JSON weather service |
+| ❌ DOWN | [Open Library](https://openlibrary.org/developers/api) | Open Data | `No` | `0` | 13214 ms | Books, authors, and ISBN catalog |
+| ❌ DOWN | [SpaceX API](https://github.com/r-spacex/SpaceX-API) | Science | `No` | `0` | 12063 ms | Launches, rockets, and starlink data |
+| ❌ DOWN | [NASA Open APIs (APOD)](https://api.nasa.gov/) | Science | `DEMO_KEY` | `0` | 12344 ms | Astronomy picture of the day & space data |
 
 ## Dedicated Topic & SEO Pages
 

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T06:54:01Z",
+  "updated_at": "2026-11-26T12:56:02Z",
   "count": 40,
   "apis": [
     {
@@ -13,7 +13,7 @@
       "description": "Live catalog of LLM models & pricing",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 18
+      "latency_ms": 21
     },
     {
       "name": "Hugging Face Hub API",
@@ -26,7 +26,7 @@
       "description": "Models, datasets & spaces metadata",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 20
+      "latency_ms": 44
     },
     {
       "name": "PyPI JSON API",
@@ -39,20 +39,7 @@
       "description": "Python package index metadata",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 23
-    },
-    {
-      "name": "NPM Registry",
-      "category": "Developer",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://registry.npmjs.org/express/latest",
-      "docs": "https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md",
-      "description": "JavaScript package metadata",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 36
+      "latency_ms": 13
     },
     {
       "name": "JSONPlaceholder",
@@ -65,33 +52,20 @@
       "description": "Fake online REST API for testing",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 41
+      "latency_ms": 25
     },
     {
-      "name": "HTTPBin",
+      "name": "NPM Registry",
       "category": "Developer",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
-      "test_url": "https://httpbin.org/get",
-      "docs": "https://httpbin.org/",
-      "description": "HTTP request & response testing service",
+      "test_url": "https://registry.npmjs.org/express/latest",
+      "docs": "https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md",
+      "description": "JavaScript package metadata",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 93
-    },
-    {
-      "name": "GitHub REST API",
-      "category": "Developer",
-      "auth": "Optional",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://api.github.com/zen",
-      "docs": "https://docs.github.com/en/rest",
-      "description": "Repositories, issues, and developer metadata",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 95
+      "latency_ms": 29
     },
     {
       "name": "DummyJSON",
@@ -104,7 +78,33 @@
       "description": "Mock ecommerce, auth & user REST API",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 106
+      "latency_ms": 89
+    },
+    {
+      "name": "HTTPBin",
+      "category": "Developer",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://httpbin.org/get",
+      "docs": "https://httpbin.org/",
+      "description": "HTTP request & response testing service",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 118
+    },
+    {
+      "name": "GitHub REST API",
+      "category": "Developer",
+      "auth": "Optional",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://api.github.com/zen",
+      "docs": "https://docs.github.com/en/rest",
+      "description": "Repositories, issues, and developer metadata",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 131
     },
     {
       "name": "PokeAPI",
@@ -117,20 +117,7 @@
       "description": "RESTful Pokemon encyclopedia",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 36
-    },
-    {
-      "name": "Open Trivia DB",
-      "category": "Entertainment",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://opentdb.com/api.php?amount=1",
-      "docs": "https://opentdb.com/api_config.php",
-      "description": "Free trivia questions dataset",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 90
+      "latency_ms": 43
     },
     {
       "name": "Rick and Morty API",
@@ -143,7 +130,7 @@
       "description": "Characters, locations & episodes",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 92
+      "latency_ms": 81
     },
     {
       "name": "Deck of Cards API",
@@ -156,46 +143,20 @@
       "description": "Simulate card decks & draws",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 114
+      "latency_ms": 111
     },
     {
-      "name": "Dog CEO API",
+      "name": "Open Trivia DB",
       "category": "Entertainment",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
-      "test_url": "https://dog.ceo/api/breeds/image/random",
-      "docs": "https://dog.ceo/dog-api/",
-      "description": "Random dog images by breed",
+      "test_url": "https://opentdb.com/api.php?amount=1",
+      "docs": "https://opentdb.com/api_config.php",
+      "description": "Free trivia questions dataset",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 224
-    },
-    {
-      "name": "TVMaze",
-      "category": "Entertainment",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://api.tvmaze.com/shows/1",
-      "docs": "https://www.tvmaze.com/api",
-      "description": "TV shows & episode schedules",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 312
-    },
-    {
-      "name": "Advice Slip API",
-      "category": "Entertainment",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://api.adviceslip.com/advice",
-      "docs": "https://api.adviceslip.com/",
-      "description": "Random advice JSON endpoint",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 341
+      "latency_ms": 198
     },
     {
       "name": "Cat Fact Ninja",
@@ -208,7 +169,46 @@
       "description": "Random cat facts JSON API",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 368
+      "latency_ms": 294
+    },
+    {
+      "name": "Advice Slip API",
+      "category": "Entertainment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://api.adviceslip.com/advice",
+      "docs": "https://api.adviceslip.com/",
+      "description": "Random advice JSON endpoint",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 331
+    },
+    {
+      "name": "Dog CEO API",
+      "category": "Entertainment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://dog.ceo/api/breeds/image/random",
+      "docs": "https://dog.ceo/dog-api/",
+      "description": "Random dog images by breed",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 351
+    },
+    {
+      "name": "TVMaze",
+      "category": "Entertainment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://api.tvmaze.com/shows/1",
+      "docs": "https://www.tvmaze.com/api",
+      "description": "TV shows & episode schedules",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 394
     },
     {
       "name": "Open Exchange Rates (ER-API)",
@@ -221,7 +221,7 @@
       "description": "Free JSON currency conversion rates",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 43
+      "latency_ms": 31
     },
     {
       "name": "CoinGecko Prices",
@@ -234,7 +234,7 @@
       "description": "Cryptocurrency market data & prices",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 98
+      "latency_ms": 81
     },
     {
       "name": "Frankfurter Exchange Rates",
@@ -247,7 +247,7 @@
       "description": "ECB foreign exchange rates API",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 122
+      "latency_ms": 119
     },
     {
       "name": "Zippopotam.us",
@@ -260,7 +260,7 @@
       "description": "Postal codes & geolocation lookup",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 35
+      "latency_ms": 26
     },
     {
       "name": "REST Countries",
@@ -273,7 +273,7 @@
       "description": "Detailed country metadata & codes",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 105
+      "latency_ms": 130
     },
     {
       "name": "Sunrise-Sunset API",
@@ -286,7 +286,7 @@
       "description": "Sunrise and sunset times by coordinates",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 249
+      "latency_ms": 228
     },
     {
       "name": "OpenStreetMap Nominatim",
@@ -299,7 +299,7 @@
       "description": "Open geocoding & address search",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 449
+      "latency_ms": 461
     },
     {
       "name": "Cloudflare DNS over HTTPS",
@@ -312,7 +312,7 @@
       "description": "DoH JSON DNS resolver",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 35
+      "latency_ms": 23
     },
     {
       "name": "ipify Public IP",
@@ -325,7 +325,7 @@
       "description": "Simple public IPv4/IPv6 lookup",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 46
+      "latency_ms": 42
     },
     {
       "name": "Hacker News API",
@@ -338,7 +338,7 @@
       "description": "Live Hacker News stories & comments",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 100
+      "latency_ms": 165
     },
     {
       "name": "Spaceflight News API",
@@ -351,59 +351,7 @@
       "description": "Spaceflight & aerospace news articles",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 564
-    },
-    {
-      "name": "Wikipedia REST API",
-      "category": "Open Data",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://en.wikipedia.org/api/rest_v1/page/summary/GitHub",
-      "docs": "https://en.wikipedia.org/api/rest_v1/",
-      "description": "Wikipedia article summaries & media",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 24
-    },
-    {
-      "name": "Universities List",
-      "category": "Open Data",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "http://universities.hipolabs.com/search?country=Canada",
-      "docs": "https://github.com/Hipo/university-domains-list",
-      "description": "Global university names & domains",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 55
-    },
-    {
-      "name": "Free Dictionary API",
-      "category": "Open Data",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://api.dictionaryapi.dev/api/v2/entries/en/hello",
-      "docs": "https://dictionaryapi.dev/",
-      "description": "English word definitions & phonetics",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 68
-    },
-    {
-      "name": "Nager.Date Public Holidays",
-      "category": "Open Data",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://date.nager.at/api/v3/PublicHolidays/2026/US",
-      "docs": "https://date.nager.at/Api",
-      "description": "Worldwide public holidays API",
-      "status": "UP",
-      "http_code": 200,
-      "latency_ms": 194
+      "latency_ms": 2424
     },
     {
       "name": "World Bank API",
@@ -416,20 +364,72 @@
       "description": "Global economic & development indicators",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 312
+      "latency_ms": 87
     },
     {
-      "name": "Open Library",
+      "name": "Wikipedia REST API",
       "category": "Open Data",
       "auth": "No",
       "https": "Yes",
       "cors": "Yes",
-      "test_url": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json",
-      "docs": "https://openlibrary.org/developers/api",
-      "description": "Books, authors, and ISBN catalog",
+      "test_url": "https://en.wikipedia.org/api/rest_v1/page/summary/GitHub",
+      "docs": "https://en.wikipedia.org/api/rest_v1/",
+      "description": "Wikipedia article summaries & media",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 1383
+      "latency_ms": 93
+    },
+    {
+      "name": "Universities List",
+      "category": "Open Data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "http://universities.hipolabs.com/search?country=Canada",
+      "docs": "https://github.com/Hipo/university-domains-list",
+      "description": "Global university names & domains",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 96
+    },
+    {
+      "name": "Nager.Date Public Holidays",
+      "category": "Open Data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://date.nager.at/api/v3/PublicHolidays/2026/US",
+      "docs": "https://date.nager.at/Api",
+      "description": "Worldwide public holidays API",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 144
+    },
+    {
+      "name": "Free Dictionary API",
+      "category": "Open Data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://api.dictionaryapi.dev/api/v2/entries/en/hello",
+      "docs": "https://dictionaryapi.dev/",
+      "description": "English word definitions & phonetics",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 215
+    },
+    {
+      "name": "arXiv API",
+      "category": "Science",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://export.arxiv.org/api/query?search_query=all:llm&max_results=1",
+      "docs": "https://info.arxiv.org/help/api/index.html",
+      "description": "Scientific preprints & papers",
+      "status": "UP",
+      "http_code": 200,
+      "latency_ms": 66
     },
     {
       "name": "Open Notify ISS Location",
@@ -442,7 +442,7 @@
       "description": "Live International Space Station coordinates",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 305
+      "latency_ms": 3264
     },
     {
       "name": "OSV Vulnerability DB",
@@ -455,7 +455,7 @@
       "description": "Open source vulnerability database",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 89
+      "latency_ms": 140
     },
     {
       "name": "Open-Meteo Weather",
@@ -468,7 +468,7 @@
       "description": "Free open-source weather forecast API",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 60
+      "latency_ms": 93
     },
     {
       "name": "wttr.in Weather",
@@ -481,7 +481,20 @@
       "description": "Console & JSON weather service",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 768
+      "latency_ms": 742
+    },
+    {
+      "name": "Open Library",
+      "category": "Open Data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "test_url": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json",
+      "docs": "https://openlibrary.org/developers/api",
+      "description": "Books, authors, and ISBN catalog",
+      "status": "DOWN",
+      "http_code": 0,
+      "latency_ms": 12078
     },
     {
       "name": "NASA Open APIs (APOD)",
@@ -494,7 +507,7 @@
       "description": "Astronomy picture of the day & space data",
       "status": "DOWN",
       "http_code": 500,
-      "latency_ms": 721
+      "latency_ms": 563
     },
     {
       "name": "SpaceX API",
@@ -507,20 +520,7 @@
       "description": "Launches, rockets, and starlink data",
       "status": "DOWN",
       "http_code": 0,
-      "latency_ms": 12026
-    },
-    {
-      "name": "arXiv API",
-      "category": "Science",
-      "auth": "No",
-      "https": "Yes",
-      "cors": "Yes",
-      "test_url": "https://export.arxiv.org/api/query?search_query=all:llm&max_results=1",
-      "docs": "https://info.arxiv.org/help/api/index.html",
-      "description": "Scientific preprints & papers",
-      "status": "DOWN",
-      "http_code": 0,
-      "latency_ms": 12127
+      "latency_ms": 12058
     }
   ]
 }

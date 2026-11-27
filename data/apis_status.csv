@@ -1,41 +1,41 @@
 name,category,status,http_code,latency_ms,auth,https,cors,docs,test_url,description
-OpenRouter Models API,AI,UP,200,25,No,Yes,Yes,https://openrouter.ai/docs,https://openrouter.ai/api/v1/models,Live catalog of LLM models & pricing
-Hugging Face Hub API,AI,UP,200,81,No,Yes,Yes,https://huggingface.co/docs/hub/api,https://huggingface.co/api/models?limit=1,"Models, datasets & spaces metadata"
-PyPI JSON API,Developer,UP,200,21,No,Yes,Yes,https://warehouse.pypa.io/api-reference/json.html,https://pypi.org/pypi/requests/json,Python package index metadata
-JSONPlaceholder,Developer,UP,200,33,No,Yes,Yes,https://jsonplaceholder.typicode.com/,https://jsonplaceholder.typicode.com/todos/1,Fake online REST API for testing
-NPM Registry,Developer,UP,200,89,No,Yes,Yes,https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md,https://registry.npmjs.org/express/latest,JavaScript package metadata
-DummyJSON,Developer,UP,200,123,No,Yes,Yes,https://dummyjson.com/docs,https://dummyjson.com/products/1,"Mock ecommerce, auth & user REST API"
-GitHub REST API,Developer,UP,200,138,Optional,Yes,Yes,https://docs.github.com/en/rest,https://api.github.com/zen,"Repositories, issues, and developer metadata"
-HTTPBin,Developer,UP,200,230,No,Yes,Yes,https://httpbin.org/,https://httpbin.org/get,HTTP request & response testing service
-PokeAPI,Entertainment,UP,200,31,No,Yes,Yes,https://pokeapi.co/docs/v2,https://pokeapi.co/api/v2/pokemon/ditto,RESTful Pokemon encyclopedia
-Rick and Morty API,Entertainment,UP,200,80,No,Yes,Yes,https://rickandmortyapi.com/documentation,https://rickandmortyapi.com/api/character/1,"Characters, locations & episodes"
-Cat Fact Ninja,Entertainment,UP,200,157,No,Yes,Yes,https://catfact.ninja/,https://catfact.ninja/fact,Random cat facts JSON API
-Open Trivia DB,Entertainment,UP,200,284,No,Yes,Yes,https://opentdb.com/api_config.php,https://opentdb.com/api.php?amount=1,Free trivia questions dataset
-Dog CEO API,Entertainment,UP,200,318,No,Yes,Yes,https://dog.ceo/dog-api/,https://dog.ceo/api/breeds/image/random,Random dog images by breed
-Deck of Cards API,Entertainment,UP,200,388,No,Yes,Yes,https://deckofcardsapi.com/,https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1,Simulate card decks & draws
-Advice Slip API,Entertainment,UP,200,467,No,Yes,Yes,https://api.adviceslip.com/,https://api.adviceslip.com/advice,Random advice JSON endpoint
-TVMaze,Entertainment,UP,200,517,No,Yes,Yes,https://www.tvmaze.com/api,https://api.tvmaze.com/shows/1,TV shows & episode schedules
-Frankfurter Exchange Rates,Finance,UP,200,79,No,Yes,Yes,https://www.frankfurter.app/docs/,https://api.frankfurter.app/latest,ECB foreign exchange rates API
-CoinGecko Prices,Finance,UP,200,113,No,Yes,Yes,https://docs.coingecko.com/,https://api.coingecko.com/api/v3/ping,Cryptocurrency market data & prices
-Open Exchange Rates (ER-API),Finance,UP,200,510,No,Yes,Yes,https://www.exchangerate-api.com/docs/free,https://open.er-api.com/v6/latest/USD,Free JSON currency conversion rates
-Zippopotam.us,Geo,UP,200,36,No,Yes,Yes,https://www.zippopotam.us/,https://api.zippopotam.us/us/90210,Postal codes & geolocation lookup
-OpenStreetMap Nominatim,Geo,UP,200,42,No,Yes,Yes,https://nominatim.org/release-docs/latest/api/Overview/,https://nominatim.openstreetmap.org/search?q=Berlin&format=json&limit=1,Open geocoding & address search
-REST Countries,Geo,UP,200,94,No,Yes,Yes,https://restcountries.com/,https://restcountries.com/v3.1/alpha/de,Detailed country metadata & codes
-Sunrise-Sunset API,Geo,UP,200,121,No,Yes,Yes,https://sunrise-sunset.org/api,https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400,Sunrise and sunset times by coordinates
-Cloudflare DNS over HTTPS,Network,UP,200,24,No,Yes,Yes,https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/,https://cloudflare-dns.com/dns-query?name=github.com&type=A,DoH JSON DNS resolver
-ipify Public IP,Network,UP,200,110,No,Yes,Yes,https://www.ipify.org/,https://api.ipify.org?format=json,Simple public IPv4/IPv6 lookup
-Hacker News API,News,UP,200,187,No,Yes,Yes,https://github.com/HackerNews/API,https://hacker-news.firebaseio.com/v0/topstories.json,Live Hacker News stories & comments
-Spaceflight News API,News,UP,200,1462,No,Yes,Yes,https://api.spaceflightnewsapi.net/v4/docs/,https://api.spaceflightnewsapi.net/v4/articles/?limit=1,Spaceflight & aerospace news articles
-Wikipedia REST API,Open Data,UP,200,14,No,Yes,Yes,https://en.wikipedia.org/api/rest_v1/,https://en.wikipedia.org/api/rest_v1/page/summary/GitHub,Wikipedia article summaries & media
-Free Dictionary API,Open Data,UP,200,48,No,Yes,Yes,https://dictionaryapi.dev/,https://api.dictionaryapi.dev/api/v2/entries/en/hello,English word definitions & phonetics
-World Bank API,Open Data,UP,200,58,No,Yes,Yes,https://datahelpdesk.worldbank.org/knowledgebase/topics/125589,https://api.worldbank.org/v2/country/all?format=json&per_page=1,Global economic & development indicators
-Open Library,Open Data,UP,200,129,No,Yes,Yes,https://openlibrary.org/developers/api,https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json,"Books, authors, and ISBN catalog"
-Universities List,Open Data,UP,200,162,No,Yes,Yes,https://github.com/Hipo/university-domains-list,http://universities.hipolabs.com/search?country=Canada,Global university names & domains
-Nager.Date Public Holidays,Open Data,UP,200,184,No,Yes,Yes,https://date.nager.at/Api,https://date.nager.at/api/v3/PublicHolidays/2026/US,Worldwide public holidays API
-arXiv API,Science,UP,200,111,No,Yes,Yes,https://info.arxiv.org/help/api/index.html,https://export.arxiv.org/api/query?search_query=all:llm&max_results=1,Scientific preprints & papers
-Open Notify ISS Location,Science,UP,200,7178,No,No,Unknown,http://open-notify.org/,http://api.open-notify.org/iss-now.json,Live International Space Station coordinates
-OSV Vulnerability DB,Security,UP,200,158,No,Yes,Yes,https://google.github.io/osv.dev/api/,https://api.osv.dev/v1/vulns/GHSA-jfh8-c2jp-5v3q,Open source vulnerability database
-wttr.in Weather,Weather,UP,200,642,No,Yes,Yes,https://github.com/chubin/wttr.in,https://wttr.in/London?format=j1,Console & JSON weather service
-NASA Open APIs (APOD),Science,DOWN,500,384,DEMO_KEY,Yes,Yes,https://api.nasa.gov/,https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY,Astronomy picture of the day & space data
-SpaceX API,Science,DOWN,0,12042,No,Yes,Yes,https://github.com/r-spacex/SpaceX-API,https://api.spacexdata.com/v4/launches/latest,"Launches, rockets, and starlink data"
-Open-Meteo Weather,Weather,DOWN,0,12042,No,Yes,Yes,https://open-meteo.com/en/docs,https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true,Free open-source weather forecast API
+OpenRouter Models API,AI,UP,200,30,No,Yes,Yes,https://openrouter.ai/docs,https://openrouter.ai/api/v1/models,Live catalog of LLM models & pricing
+Hugging Face Hub API,AI,UP,200,86,No,Yes,Yes,https://huggingface.co/docs/hub/api,https://huggingface.co/api/models?limit=1,"Models, datasets & spaces metadata"
+NPM Registry,Developer,UP,200,42,No,Yes,Yes,https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md,https://registry.npmjs.org/express/latest,JavaScript package metadata
+PyPI JSON API,Developer,UP,200,43,No,Yes,Yes,https://warehouse.pypa.io/api-reference/json.html,https://pypi.org/pypi/requests/json,Python package index metadata
+JSONPlaceholder,Developer,UP,200,57,No,Yes,Yes,https://jsonplaceholder.typicode.com/,https://jsonplaceholder.typicode.com/todos/1,Fake online REST API for testing
+DummyJSON,Developer,UP,200,108,No,Yes,Yes,https://dummyjson.com/docs,https://dummyjson.com/products/1,"Mock ecommerce, auth & user REST API"
+HTTPBin,Developer,UP,200,139,No,Yes,Yes,https://httpbin.org/,https://httpbin.org/get,HTTP request & response testing service
+GitHub REST API,Developer,UP,200,173,Optional,Yes,Yes,https://docs.github.com/en/rest,https://api.github.com/zen,"Repositories, issues, and developer metadata"
+PokeAPI,Entertainment,UP,200,60,No,Yes,Yes,https://pokeapi.co/docs/v2,https://pokeapi.co/api/v2/pokemon/ditto,RESTful Pokemon encyclopedia
+Rick and Morty API,Entertainment,UP,200,71,No,Yes,Yes,https://rickandmortyapi.com/documentation,https://rickandmortyapi.com/api/character/1,"Characters, locations & episodes"
+Open Trivia DB,Entertainment,UP,200,182,No,Yes,Yes,https://opentdb.com/api_config.php,https://opentdb.com/api.php?amount=1,Free trivia questions dataset
+Deck of Cards API,Entertainment,UP,200,214,No,Yes,Yes,https://deckofcardsapi.com/,https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1,Simulate card decks & draws
+Advice Slip API,Entertainment,UP,200,361,No,Yes,Yes,https://api.adviceslip.com/,https://api.adviceslip.com/advice,Random advice JSON endpoint
+TVMaze,Entertainment,UP,200,390,No,Yes,Yes,https://www.tvmaze.com/api,https://api.tvmaze.com/shows/1,TV shows & episode schedules
+Dog CEO API,Entertainment,UP,200,457,No,Yes,Yes,https://dog.ceo/dog-api/,https://dog.ceo/api/breeds/image/random,Random dog images by breed
+Cat Fact Ninja,Entertainment,UP,200,462,No,Yes,Yes,https://catfact.ninja/,https://catfact.ninja/fact,Random cat facts JSON API
+CoinGecko Prices,Finance,UP,200,118,No,Yes,Yes,https://docs.coingecko.com/,https://api.coingecko.com/api/v3/ping,Cryptocurrency market data & prices
+Frankfurter Exchange Rates,Finance,UP,200,163,No,Yes,Yes,https://www.frankfurter.app/docs/,https://api.frankfurter.app/latest,ECB foreign exchange rates API
+Open Exchange Rates (ER-API),Finance,UP,200,413,No,Yes,Yes,https://www.exchangerate-api.com/docs/free,https://open.er-api.com/v6/latest/USD,Free JSON currency conversion rates
+Zippopotam.us,Geo,UP,200,55,No,Yes,Yes,https://www.zippopotam.us/,https://api.zippopotam.us/us/90210,Postal codes & geolocation lookup
+OpenStreetMap Nominatim,Geo,UP,200,65,No,Yes,Yes,https://nominatim.org/release-docs/latest/api/Overview/,https://nominatim.openstreetmap.org/search?q=Berlin&format=json&limit=1,Open geocoding & address search
+REST Countries,Geo,UP,200,155,No,Yes,Yes,https://restcountries.com/,https://restcountries.com/v3.1/alpha/de,Detailed country metadata & codes
+Sunrise-Sunset API,Geo,UP,200,211,No,Yes,Yes,https://sunrise-sunset.org/api,https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400,Sunrise and sunset times by coordinates
+Cloudflare DNS over HTTPS,Network,UP,200,36,No,Yes,Yes,https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/,https://cloudflare-dns.com/dns-query?name=github.com&type=A,DoH JSON DNS resolver
+ipify Public IP,Network,UP,200,66,No,Yes,Yes,https://www.ipify.org/,https://api.ipify.org?format=json,Simple public IPv4/IPv6 lookup
+Hacker News API,News,UP,200,145,No,Yes,Yes,https://github.com/HackerNews/API,https://hacker-news.firebaseio.com/v0/topstories.json,Live Hacker News stories & comments
+Spaceflight News API,News,UP,200,471,No,Yes,Yes,https://api.spaceflightnewsapi.net/v4/docs/,https://api.spaceflightnewsapi.net/v4/articles/?limit=1,Spaceflight & aerospace news articles
+Free Dictionary API,Open Data,UP,200,85,No,Yes,Yes,https://dictionaryapi.dev/,https://api.dictionaryapi.dev/api/v2/entries/en/hello,English word definitions & phonetics
+Wikipedia REST API,Open Data,UP,200,94,No,Yes,Yes,https://en.wikipedia.org/api/rest_v1/,https://en.wikipedia.org/api/rest_v1/page/summary/GitHub,Wikipedia article summaries & media
+World Bank API,Open Data,UP,200,108,No,Yes,Yes,https://datahelpdesk.worldbank.org/knowledgebase/topics/125589,https://api.worldbank.org/v2/country/all?format=json&per_page=1,Global economic & development indicators
+Universities List,Open Data,UP,200,138,No,Yes,Yes,https://github.com/Hipo/university-domains-list,http://universities.hipolabs.com/search?country=Canada,Global university names & domains
+Nager.Date Public Holidays,Open Data,UP,200,156,No,Yes,Yes,https://date.nager.at/Api,https://date.nager.at/api/v3/PublicHolidays/2026/US,Worldwide public holidays API
+Open Library,Open Data,UP,200,1752,No,Yes,Yes,https://openlibrary.org/developers/api,https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json,"Books, authors, and ISBN catalog"
+arXiv API,Science,UP,200,119,No,Yes,Yes,https://info.arxiv.org/help/api/index.html,https://export.arxiv.org/api/query?search_query=all:llm&max_results=1,Scientific preprints & papers
+Open Notify ISS Location,Science,UP,200,141,No,No,Unknown,http://open-notify.org/,http://api.open-notify.org/iss-now.json,Live International Space Station coordinates
+NASA Open APIs (APOD),Science,UP,200,2396,DEMO_KEY,Yes,Yes,https://api.nasa.gov/,https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY,Astronomy picture of the day & space data
+OSV Vulnerability DB,Security,UP,200,164,No,Yes,Yes,https://google.github.io/osv.dev/api/,https://api.osv.dev/v1/vulns/GHSA-jfh8-c2jp-5v3q,Open source vulnerability database
+Open-Meteo Weather,Weather,UP,200,209,No,Yes,Yes,https://open-meteo.com/en/docs,https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true,Free open-source weather forecast API
+wttr.in Weather,Weather,UP,200,1156,No,Yes,Yes,https://github.com/chubin/wttr.in,https://wttr.in/London?format=j1,Console & JSON weather service
+SpaceX API,Science,DOWN,0,12058,No,Yes,Yes,https://github.com/r-spacex/SpaceX-API,https://api.spacexdata.com/v4/launches/latest,"Launches, rockets, and starlink data"
